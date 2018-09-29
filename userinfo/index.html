@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>通讯录</title>
+    <link rel="stylesheet" href="./css/index.css?1">
+  </head>
+  <body>
+    <div class="wrapper">
+        <div class="swrapper">
+          <input class="swords" type="text">
+          <span sex="m" class="btn">Male</span>
+          <span sex="f" class="btn ">Female</span>
+          <span sex="a" class="btn active">ALL</span>
+          <select name="" id="" class="select_age">
+            <option class="select_list" value="0">全部</option>
+            <option class="select_list" value="9">小于等于9</option>
+            <option class="select_list" value="19">10-19</option>
+            <option class="select_list" value="29">20-29</option>
+            <option class="select_list" value="39">30-39</option>
+            <option class="select_list" value="40">40+</option>
+          </select>
+        </div>
+        <p class="notice">可输入姓名关键字配合年龄查询如邱28，注意下拉框条件优先级高于输入框</p>
+        <div class="user_wrapper">
+          <ul>
+            <li class="list_content">
+              <img src="./src/2.jpg" alt="">
+              <p>123</p>
+              <p>123</p>
+            </li>
+          </ul>
+        </div>
+    </div>
+    <script type="text/javascript" src="./js/filter/filterBySex.js"></script>
+    <script type="text/javascript" src="./js/filter/filterByText.js"></script>
+    <!-- <script type="text/javascript" src="./js/filter/filterByAge.js"></script> -->
+    <script type="text/javascript" src="./js/combineFilter/combineFilter.js"></script>
+    <script type="text/javascript" src="./js/store/store.js"></script>
+    <script type="text/javascript" src="./js/index.js">
+    </script>
+  </body>
+</html>

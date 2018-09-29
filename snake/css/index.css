@@ -1,0 +1,40 @@
+.wrapper{
+  width: 100%;
+}
+.wrapper .content{
+  width: 500px;
+  height: 500px;
+  margin: 10px auto 0;
+  position: relative;
+  border: 1px solid black;
+}
+.wrapper .content .snake{
+  width: 10px;
+  height: 10px;
+  background: red;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.wrapper .content .food{
+  width: 10px;
+  height: 10px;
+  background: green;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.score{
+  width: 500px;
+  height: 100px;
+  margin-left: 10px;
+  border: 1px solid black;
+  margin: 20px auto 0;
+}
+.score .count{
+  width: 200px;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+}
